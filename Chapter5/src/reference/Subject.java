@@ -13,17 +13,15 @@ public class Subject {
 		subjectName = name;
 	}
 
-	public int getScore() {
-		return score;
+	public String getSubjectName() {
+		return subjectName;
 	}
 
 	public void setScore(int score) {
 		this.score = score;
 	}
-
-	public String getSubjectName() {
-		return subjectName;
+	
+	public int getScore() {
+		return score;
 	}
-	
-	
 }
