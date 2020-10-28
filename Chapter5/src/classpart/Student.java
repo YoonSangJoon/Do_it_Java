@@ -2,21 +2,29 @@ package classpart;
 
 public class Student {
 	
-	int studentID;
-	String studentName;
-	int grade;
-	String address;
-	
-	public void showStudentInfor() {
-		System.out.println(studentName + ", " + address);
-	}
-	/* 
-	public static void main(String[] args) {
+		int studentID;
+		String studentName;
+		int grade;
+		String address;
 		
-		Student studentLee = new Student();
-		studentLee.studentName = "이순신";
-		studentLee.address = "서울시 은평구 신사동";
+		public Student() {};
 		
-		studentLee.showStudentInfor(); 
-	}*/
+		public Student(int id, String name) {
+			studentID = id;
+			studentName = name;
+		}
+		
+		public void showStudentInfor() {
+			System.out.println(studentName + "," + address);
+		}
+		
+		public String getStudentName() {
+			return studentName;
+		}
+		
+		public void setStudentName(String name) {
+			studentName = name;
+		}
+		
+		
 }
