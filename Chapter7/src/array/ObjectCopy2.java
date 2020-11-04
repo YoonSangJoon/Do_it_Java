@@ -40,7 +40,7 @@ public class ObjectCopy2 {
 		String [] strArr = {"Java", "Python", "C"};
 		
 		for (String s : strArr) {
-			System.out.println(strArr[i]);
+			System.out.println(s);
 		}
 		
 		int [] arr = {1,2,3,4,5};
