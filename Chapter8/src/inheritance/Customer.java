@@ -8,13 +8,13 @@ public class Customer{
 	int bonusPoint;
 	double bonusRatio;
 	
-//	public Customer() {
-//		
-//		customerGrade = "SILVER";
-//		bonusRatio = 0.01;
-//		
-//		System.out.println("Customer() 호출");
-//	}
+	public Customer() {
+		
+		customerGrade = "SILVER";
+		bonusRatio = 0.01;
+		
+		System.out.println("Customer() 호출");
+	}
 	
 	public Customer(int customerID, String customerName) {
 		this.customerID = customerID;
